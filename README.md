@@ -18,4 +18,4 @@ Showcase of a layout failed bug caused by dispatchWindowInsets
 
  Sample:
  
- ![sample](https://github.com/jinkg/dispatchWindowInsets_bug_sample/blob/master/screen_shots/dispatch_window_insets_bug_sample.gif =320x)
+ ![sample](https://github.com/jinkg/dispatchWindowInsets_bug_sample/blob/master/screen_shots/dispatch_window_insets_bug_sample.gif)
