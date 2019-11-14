@@ -14,6 +14,7 @@ Showcase of a layout failed bug caused by dispatchWindowInsets
  4) Refresh fragment 1
  
  Result:
+ 
  Fragment 1 cannot refresh layout
 
  Sample:
