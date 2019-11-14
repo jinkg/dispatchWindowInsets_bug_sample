@@ -2,6 +2,7 @@
 
 Showcase of a layout failed bug caused by dispatchWindowInsets
 
+https://issuetracker.google.com/144443783
 
  Require:
  1) Set fitsSystemWindows=true in first page's list item (layout_item1.xml)
