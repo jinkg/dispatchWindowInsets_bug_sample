@@ -1,17 +1,20 @@
 # dispatchWindowInsets_bug_sample
 
+Showcase of a layout failed bug caused by dispatchWindowInsets
 
- DispatchWindowInsets bug sample
- 
+
  Require:
- 1.Set fitsSystemWindows=true in first page's list item
- @see layout_item1.xml
- 2.Request layout before change status bar text color
- @see changeStatusBarText
+ 1) Set fitsSystemWindows=true in first page's list item (layout_item1.xml)
+ 2) Request layout before change status bar text color (changeStatusBarText)
  
- Step:
- 1.Refresh list 1
- 2.Swipe to list 2 and refresh
- 3.Swipe back to list 1
- 4.Refresh list 1
+ Steps to reproduce:
+ 1) Refresh fragment 1
+ 2) Swipe to fragment 2 and refresh
+ 3) Swipe back to fragment 1
+ 4) Refresh fragment 1
  
+ Result:
+ Fragment 1 cannot refresh layout
+
+ Sample:
+ ![sample](https://github.com/jinkg/dispatchWindowInsets_bug_sample/blob/master/screen_shots/dispatch_window_insets_bug_sample.gif)
